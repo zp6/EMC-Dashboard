@@ -152,7 +152,7 @@ export async function getDexData(chainName?: string) {
   });
   const pairs = resp.pairs || [];
   const data = pairs[0] || { priceUsd: '0.0', fdv: 0, priceNative: '0.0' };
-  const priceUsd = Number(data.priceNative) || 0;
+  const priceUsd = Number(data.priceUsd) || 0;
   const fdv = data.fdv || 0;
   return { priceUsd, fdv };
 }

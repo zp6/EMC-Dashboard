@@ -12,16 +12,16 @@
     <div class="body">
       <div class="section">
         <div
-          class="grid grid-cols-2 sm:mt-[80px] sm:mb-[60px] sm:grid-cols-4 gap-[16px] sm:gap-x-[24px] sm:gap-y-[60px]">
-          <div class="grid-cols-1">
+          class="grid grid-cols-2 sm:mt-[80px] sm:mb-[60px] sm:grid-cols-3 gap-[16px] sm:gap-x-[24px] sm:gap-y-[60px]">
+          <!-- <div class="grid-cols-1">
             <NumericBlocks :size="numericSize" />
-          </div>
+          </div> -->
           <div class="grid-cols-1">
             <NumericApiTxs :size="numericSize" />
           </div>
-          <div class="grid-cols-1">
+          <!-- <div class="grid-cols-1">
             <NumericTaskPending :size="numericSize" />
-          </div>
+          </div> -->
           <div class="grid-cols-1">
             <NumericCredits :size="numericSize" />
           </div>
